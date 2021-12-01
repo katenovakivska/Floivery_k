@@ -1,0 +1,52 @@
+description: "A new Flutter application."
+name: "flutterapp"
+publish_to: "none"
+version: "1.0.0+1"
+dependencies: 
+  cupertino_icons: "^0.1.3"
+  path_drawing: "^0.4.1"
+  flutter: 
+    sdk: "flutter"
+dev_dependencies: 
+  flutter_test: 
+    sdk: "flutter"
+environment: 
+  sdk: ">=2.7.0 <3.0.0"
+flutter: 
+  assets: 
+    - "assets/images/"
+  fonts: 
+    - 
+      family: "Didact Gothic"
+      fonts: 
+        - 
+          asset: "fonts/DidactGothic-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Manrope"
+      fonts: 
+        - 
+          asset: "fonts/Manrope-600.ttf"
+          style: "normal"
+          weight: 600
+        - 
+          asset: "fonts/Manrope-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Manrope-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Manrope-800.ttf"
+          style: "normal"
+          weight: 800
+    - 
+      family: "Poppins"
+      fonts: 
+        - 
+          asset: "fonts/Poppins-600.ttf"
+          style: "normal"
+          weight: 600
+  uses-material-design: true
